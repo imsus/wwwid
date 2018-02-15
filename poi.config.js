@@ -21,12 +21,13 @@ module.exports = options => ({
       config.plugin('offline').use(OfflinePlugin)
       config.plugin('purgecss').use(PurgeCSS, [{
         paths: glob.sync([
+          path.join(__dirname, 'index.ejs'),
           path.join(__dirname, 'src/**/*.vue')
         ]),
         extractors: [
           {
             extractor: TailwindExtractor,
-            extensions: ['html', 'js', 'vue']
+            extensions: ['html', 'js', 'vue', 'ejs']
           }
         ]
       }])
