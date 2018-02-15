@@ -6,6 +6,10 @@
     @apply .mb-4 .leading-normal;
   }
 
+  blockquote {
+    @apply .leading-normal .my-4 .bg-grey-lightest .-mx-3 .p-3 .border-l-4 .border-black .italic
+  }
+
   ul, ol {
     @apply .pl-4;
   }
@@ -16,19 +20,39 @@
     word-break: break-word;
   }
 
-  h1, h2, h3 {
-    @apply .mb-3 .leading-tight;
+  & > a {
+    @apply .leading-normal .mb-4 .inline-block;
+  }
+
+  h1, h2, h3, h4 {
+    @apply .mb-2 .leading-tight;
+  }
+
+  h1 {
+    @apply .mt-6;
+  }
+
+  h2 {
+    @apply .mt-4;
+  }
+
+  h3 {
+    @apply .mt-3;
+  }
+
+  pre {
+    @apply .bg-grey-lightest .border-t .border-b .-mx-3 .p-3 .my-4 .overflow-x-scroll;
   }
 
   figure {
-    @apply .my-4 .-mx-3;
+    @apply .my-4 .-mx-3 .bg-grey-lightest;
 
     img {
-      @apply .flex .mb-2;
+      @apply .flex;
     }
 
     figcaption {
-      @apply .text-xs .text-center .leading-tight .text-grey-dark .px-3;
+      @apply .text-xs .text-center .leading-tight .text-grey-dark .px-3 .block .py-2 border-t border-b;
     }
   }
 }
