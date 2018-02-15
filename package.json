@@ -17,12 +17,15 @@
   },
   "devDependencies": {
     "downsize": "^0.0.8",
+    "glob-all": "^3.1.0",
     "luxon": "^0.4.0",
     "offline-plugin": "^4.9.0",
     "poi": "^9.6.13",
+    "poi-preset-babel-minify": "^1.0.3",
     "poi-preset-buble": "^9.2.0",
     "poi-preset-offline": "^9.0.3",
     "postcss-nested": "^3.0.0",
+    "purgecss-webpack-plugin": "^0.20.0",
     "tailwindcss": "^0.4.1",
     "vue-lazyload": "^1.2.1"
   }
