@@ -1,0 +1,29 @@
+{
+  "productName": "WWWID Reader",
+  "name": "wwwid-reader",
+  "description": "Aplikasi Reader RSS WWWID di Medium",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "watch": "poi watch",
+    "prod": "poi build"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "downsize": "^0.0.8",
+    "luxon": "^0.4.0",
+    "offline-plugin": "^4.9.0",
+    "poi": "^9.6.13",
+    "poi-preset-buble": "^9.2.0",
+    "poi-preset-offline": "^9.0.3",
+    "postcss-nested": "^3.0.0",
+    "tailwindcss": "^0.4.1",
+    "vue-lazyload": "^1.2.1"
+  }
+}
