@@ -1,7 +1,7 @@
 @tailwind preflight;
 @tailwind utilities;
 
-#content {
+.content {
   p, ul, ol, li {
     @apply .mb-4 .leading-normal;
   }

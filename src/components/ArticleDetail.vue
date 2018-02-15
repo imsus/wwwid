@@ -6,7 +6,7 @@
     <div class="mx-3 mb-8">
       <h1 class="text-2xl leading-tight mb-2">{{ article.title }}</h1>
       <div class="text-sm mb-3 text-grey-dark leading-tight">ditulis oleh <strong>{{ article.author }}</strong> pada <time :datetime="formattedDate">{{ formattedDate }}</time></div>
-      <div id="content" v-html="article.content"></div>
+      <div class="content" v-html="article.content"></div>
       <div>
         <h2 class="text-base mb-2">Kategori</h2>
         <ul class="list-reset flex flex-wrap">
